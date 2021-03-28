@@ -25,6 +25,10 @@
 // import './ts/hw-04/hw-04-2';
 // import './ts/hw-04/hw-04-3';
 // import './ts/hw-04/hw-04-4';
-import './ts/hw-04/hw-04-5';
+// import './ts/hw-04/hw-04-5';
+
+// import './ts/hw-05/hw-05-1';
+
+import './ts/hw-05/hw-05-2';
 
 export { }

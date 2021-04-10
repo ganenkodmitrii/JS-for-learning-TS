@@ -10,6 +10,9 @@ followers - число
 User ${имя} is ${возраст} years old and has ${кол-во фоловеров} followers
  */
 class User {
+  readonly name;
+  readonly age;
+  readonly followers;
   constructor(name: string, age: number, followers: number) {
     this.name = name;
     this.age = age;

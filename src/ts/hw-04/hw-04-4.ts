@@ -5,7 +5,7 @@ this в методах объекта
 
 В комментариях показаны операции с объектом и ожидаемые результаты.
  */
-interface PlaginUccount {
+interface PlaginAccount {
   owner: string;
   balance: number;
   discount: number;
@@ -15,7 +15,7 @@ interface PlaginUccount {
   addOrder: (cost: number, order: string) => void;
 }
 
-const account: PlaginUccount = {
+const account: PlaginAccount = {
   owner: 'Mango',
   balance: 24000,
   discount: 0.1,

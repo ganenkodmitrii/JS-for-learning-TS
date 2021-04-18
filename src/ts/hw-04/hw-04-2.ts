@@ -25,16 +25,15 @@ const isEven = (element: number) => element % 2 === 0;
 
 function filterArray(
   array: number[],
-  cb: (element?: number, index?: number, array?: number[]) => number[] | void,
+  cb: (element: number, index: number, array: number[]) => void | boolean,
 ) {
-  //   'use strict';
   const numbers = [];
   for (let i = 0; i < array.length; i += 1) {
     const element = array[i];
     const index = i;
     // console.log(index);
     // console.log(element);
-    console.log(cb);
+    // console.log(cb);
     // Write code under this line
     if (cb(element, index, array)) {
       numbers.push(element);

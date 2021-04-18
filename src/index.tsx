@@ -22,14 +22,26 @@
 // import './ts/hw-03/hw-03-6';
 
 // import './ts/hw-04/hw-04-1';
-// import './ts/hw-04/hw-04-2';//????
-
+// import './ts/hw-04/hw-04-2';
 // import './ts/hw-04/hw-04-3';
 // import './ts/hw-04/hw-04-4';
 // import './ts/hw-04/hw-04-5';
 
 // import './ts/hw-05/hw-05-1';
 // import './ts/hw-05/hw-05-2';
-import './ts/hw-05/hw-05-3';
+// import './ts/hw-05/hw-05-3';
+// import './ts/hw-05/hw-05-4';
+// import './ts/hw-05/hw-05-5';
+
+// import './ts/hw-06/hw-06-1';
+// import './ts/hw-06/hw-06-2';
+// import './ts/hw-06/hw-06-3';
+// import './ts/hw-06/hw-06-4';
+// import './ts/hw-06/hw-06-5';
+// import './ts/hw-06/hw-06-6';
+// import './ts/hw-06/hw-06-7';
+// import './ts/hw-06/hw-06-8';
+// import './ts/hw-06/hw-06-9';
+// import './ts/hw-06/hw-06-10';
 
 export { }

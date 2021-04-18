@@ -16,6 +16,11 @@
 // - element и index и возвращает число - разность element и index (вычитание).
 // */
 
+// interface PlaginArray {
+//   array: number[];
+//   cb: (element: number, index: number) => void;
+// }
+
 // // Write code under this line
 const addIndex = (element: number, index: number) => (element += index);
 // // Write code under this line
@@ -23,7 +28,7 @@ const subIndex = (element: number, index: number) => (element -= index);
 
 const mapArray = (
   array: number[],
-  cb: (element: number, index: number) => number,
+  cb: (element: number, index: number) => void,
 ) => {
   //   'use strict';
   // Write code under this line

@@ -14,7 +14,6 @@ removeItem(item) - получает товар и, если он есть, уд�
  */
 // Write code under this line
 class Storage {
-  //   readonly items;???
   items: string[];
   constructor(items: string[]) {
     this.items = items;

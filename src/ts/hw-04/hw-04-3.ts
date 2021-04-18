@@ -15,7 +15,7 @@ const sub = (accum: number, element: number) => accum - element;
 
 function reduceArray(
   array: number[],
-  cb: (accum: number, element: number) => number,
+  cb: (accum: number, element: number) => void,
   initial?: number,
 ) {
   // 'use strict';
